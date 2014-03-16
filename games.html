@@ -1,0 +1,259 @@
+<!doctype html>
+<html>
+<head>
+<style>
+h3
+{
+color:#56D9C9;
+}
+ #back
+  {
+  position:fixed;
+  top:0px;
+  left:0px;
+  width: 100%;
+  height: 13%;
+  z-index:1;
+  background:#66CC00;
+  }
+  input[type=radio] {
+
+width:100%;
+height:100%;
+}
+  input[type=button] {
+    border: 0px;
+    width: 50%;
+    height: 3em;
+}
+</style>
+<script>
+var z,k;
+function ans(z)
+{
+var select = document.getElementById(z);
+var options = select.options;
+var selected = select.options[select.selectedIndex];
+if(z==1)
+k=0;
+else if(z==2)
+k=2;
+else if(z==3)
+k=1;
+else if(z==4)
+k=3;
+else if(z==5)
+k=3;
+else if(z==6)
+k=0;
+else if(z==7)
+k=3;
+else if(z==8)
+k=0;
+else if(z==9)
+k=2;
+else if(z==10)
+k=0;
+else if(z==11)
+k=0;
+else if(z==12)
+k=2;
+else if(z==13)
+k=1;
+else if(z==14)
+k=0;
+else if(z==15)
+k=1;
+else if(z==16)
+k=1;
+else if(z==17)
+k=3;
+else if(z==18)
+k=1;
+else if(z==19)
+k=0;
+else if(z==20)
+k=3;
+if(selected.value==k+1)
+alert("correct");
+else 
+alert("wrong");
+}
+</script>
+</head>
+<body bgcolor="white">
+  <div id="back">
+    <h3 style="position:fixed;top:0%; left:35%; color:blue;">MozFSA</h3>
+  <a href="app.html"><img src="images.png" width="40px" height="50px"></a>
+
+  </div><br><br><br><br>
+
+
+
+		<br><br><h3>(A).FSA stands for </h3><br>
+		SELECT:-<Select id="1" size="2" style="width:150px;"><option>Select</option><option>1</option><option>2</option><option>3</option><option>4</option></select><br><br>
+
+		1. Firefox students ambassadors<br><br>
+		2. Firefox student artisan<br><br>
+	    3. Facebook software art<br><br>
+		4. Firefox student army<br><br><br><input type="button" value="Check" id="1" onclick="ans(this.id);"><br>
+
+		<h3>2. What is the age criteria for joining FSA </h3><br>
+		SELECT:-<Select id="2" size="2" style="width:150px;"><option>Select</option><option>1</option><option>2</option><option>3</option><option>4</option></select><br><br>
+
+		1. NO age limit <br><br>
+		2. Below 25 years old <br><br>
+		3. Above 18 years old <br><br>
+		4. Above 5 years old <br><br><br><input type="button" value="Check" id="2" onclick="ans(this.id);"><br>  
+
+		<h3>3. Which of these are not activities of student ambassadors </h3><br>
+		SELECT:-<Select id="3" size="2" style="width:150px;"><option>Select</option><option>1</option><option>2</option><option>3</option><option>4</option></select><br><br>
+
+		1. Promote use of firedox <br><br>
+		2. Promote use of linux os <br><br>
+		3. Support launch of firefox os <br><br>
+		4. Educate others about Mozilla's mission <br><br><br><input type="button" value="Check" id="3" onclick="ans(this.id);"><br>
+
+
+	<h3>	4. Who should join FSA program?</h3><br>
+	SELECT:-<Select id="4" size="2" style="width:150px;"><option>Select</option><option>1</option><option>2</option><option>3</option><option>4</option></select><br><br>
+
+		1. Passionate about Mozilla <br><br>
+		2. Loves open-web technologies <br><br>
+		3. Want to make the web open and safe for everyone <br><br>
+		4. All of the above <br><br><br><input type="button" value="Check" id="4" onclick="ans(this.id);"><br>
+
+	<h3>	5. Why should one join FSA program?</h3><br>
+	SELECT:-<Select id="5" size="2" style="width:150px;"><option>Select</option><option>1</option><option>2</option><option>3</option><option>4</option></select><br><br>
+
+		1. To obtain a FSA open badge <br><br>
+		2. To recieve a certificate of identification from Mozilla <br><br>
+		3. To have fun while promoting Mozilla's mission! <br><br>
+		4. All of the above <br><br><br><input type="button" value="Check" id="5" onclick="ans(this.id);"><br>
+
+<!--====================other Mozilla programs==============-->
+<h3>	6.What is Mozilla?</h3><br>
+SELECT:-<Select id="6" size="2" style="width:150px;"><option>Select</option><option>1</option><option>2</option><option>3</option><option>4</option></select><br><br>
+		1. A non profit organization<br><br>
+		2. A google product<br><br>
+		3. A group of pirates<br><br>
+		4. A group leading secret projects<br><br><br><input type="button" value="Check" id="6" onclick="ans(this.id);"><br>
+
+
+
+	<h3>	7.Which of these is not a product from mozilla?</h3><br>
+	SELECT:-<Select id="7" size="2" style="width:150px;"><option>Select</option><option>1</option><option>2</option><option>3</option><option>4</option></select><br><br>
+		1. Firefox<br><br>
+		2. Thunderbird<br><br>
+		3. Persona<br><br>
+		4. Opera mini <br><br><br><input type="button" value="Check" id="7" onclick="ans(this.id);"><br>
+
+
+
+		<h3>8.Thunderbird is a/an </h3><br>
+		SELECT:-<Select id="8" size="2" style="width:150px;"><option>Select</option><option>1</option><option>2</option><option>3</option><option>4</option></select><br><br>
+
+		1. Email,news and chat client<br><br>
+		2. Web browser<br><br>
+		3. Programming language<br><br>
+		4. Operating system<br><br><br><input type="button" value="Check" id="8" onclick="ans(this.id);"><br>
+
+		
+		<h3>9.MDN stands for</h3><br>
+		SELECT:-<Select id="9" size="2" style="width:150px;"><option>Select</option><option>1</option><option>2</option><option>3</option><option>4</option></select><br><br>
+
+		1. Mozilla Director Notice<br><br>
+		2. Mozilla developer nation<br><br>
+		3. Mozilla developer network<br><br>
+		4. Myspace Diminished Network<br><br><br><input type="button" value="Check" id="9" onclick="ans(this.id);"><br>
+
+
+		<h3>10.Firefox Marketplace is</h3><br>
+		SELECT:-<Select id="10" size="2" style="width:150px;"><option>Select</option><option>1</option><option>2</option><option>3</option><option>4</option></select><br><br>
+		1. A place to host/get firefox os apps<br><br>
+		2. A place to donate to moailla<br><br>
+		3. A place to buy firefox <br><br>
+		4. A market for mobile phones<br><br><br><input type="button" value="Check" id="10" onclick="ans(this.id);"><br>
+		
+<!--====================other Mozilla programs==============-->
+ 		<h3>11. SuMO stands for</h3><br>
+		SELECT:-<Select id="11" size="2" style="width:150px;"><option>Select</option><option>1</option><option>2</option><option>3</option><option>4</option></select><br><br>
+
+ 		1. SUpport MOzilla <br><br>
+ 		2. SUmmary MOments <br><br>
+ 		3. SUperb MOzilla <br><br>
+ 		4. SUpport MOdernization.<br><br><br><input type="button" value="Check" id="11" onclick="ans(this.id);"><br>
+
+
+ 		<h3>12. Mozilla's community for women contributors</h3><br>
+		SELECT:-<Select id="12" size="2" style="width:150px;"><option>Select</option><option>1</option><option>2</option><option>3</option><option>4</option></select><br><br>
+
+ 		1. SUMOZ <br><br>
+ 		2. MAMOZ <br><br>
+ 		3. WOMOZ<br><br>
+ 		4. FSA.<br><br><br><input type="button" value="Check" id="12" onclick="ans(this.id);"><br>
+
+
+ 		<h3>13. Army of Awesome is</h3><br>
+		SELECT:-<Select id="13" size="2" style="width:150px;"><option>Select</option><option>1</option><option>2</option><option>3</option><option>4</option></select><br><br>
+
+ 		1. Support group in facebook<br><br>
+ 		2. Support group for firefox users in twitter<br><br>
+ 		3. Student ambassadors of oracle<br><br>
+ 		4. Student ambassadors of google<br><br><br><input type="button" value="Check" id="13" onclick="ans(this.id);"><br>
+
+
+ 		<h3>14.Webfwd is a</h3><br>
+		SELECT:-<Select id="14" size="2" style="width:150px;"><option>Select</option><option>1</option><option>2</option><option>3</option><option>4</option></select><br><br>
+ 			1. Hands-on accelerator designed to help entrepreneurs from around the globe build healthy businesses<br><br>
+ 			2. Training program for student ambassadors<br><br>
+ 			3. Intensive training for web developers<br><br>
+ 			4. Community of web developers<br><br><br><input type="button" value="Check" id="14" onclick="ans(this.id);"><br>
+
+ 		<h3>15. Webmaker is </h3><br>
+		SELECT:-<Select id="15" size="2" style="width:150px;"><option>Select</option><option>1</option><option>2</option><option>3</option><option>4</option></select><br><br>
+
+ 		1. An web browser for mac os from mozilla<br><br>
+ 		2. A collection of open web tools to teach web-development to all<br><br>
+ 		3. A social network for web-developers<br><br>
+ 		4. A free software for creating websites<br><br><br><input type="button" value="Check" id="15" onclick="ans(this.id);"><br>
+
+		<h3>16. Remo stands for </h3><br>
+		SELECT:-<Select id="16" size="2" style="width:150px;"><option>Select</option><option>1</option><option>2</option><option>3</option><option>4</option></select><br><br>
+
+ 		1. Regional marketing ambassador<br><br>
+ 		2. Mozilla representatives<br><br>
+ 		3. Firefox student ambassadors<br><br>
+ 		4. Regional mozillian<br><br><br><input type="button" value="Check" id="16" onclick="ans(this.id);"><br>
+		<h3>17. Firefox OS Consists of </h3><br>
+		SELECT:-<Select id="17" size="2" style="width:150px;"><option>Select</option><option>1</option><option>2</option><option>3</option><option>4</option></select><br><br>
+
+ 		1. Gaia<br><br>
+ 		2. Gonk<br><br>
+ 		3. Gecko<br><br>
+ 		4. All of above<br><br><br><input type="button" value="Check" id="17" onclick="ans(this.id);"><br>
+		<h3>18. Localization involves </h3><br>
+		SELECT:-<Select id="18" size="2" style="width:150px;"><option>Select</option><option>1</option><option>2</option><option>3</option><option>4</option></select><br><br>
+
+ 		1. Promoting firefox os<br><br>
+ 		2. Translating products into regional languages<br><br>
+ 		3. Promoting thunderbird<br><br>
+ 		4. Coding for firefox browser<br><br><br><input type="button" value="Check" id="18" onclick="ans(this.id);"><br>
+		<h3>19. Gaia is </h3><br>
+		SELECT:-<Select id="19" size="2" style="width:150px;"><option>Select</option><option>1</option><option>2</option><option>3</option><option>4</option></select><br><br>
+
+ 		1. Firefox os frontend/UserInterface<br><br>
+ 		2. Firefox browser<br><br>
+ 		3. Thunderbird email client<br><br>
+ 		4. None of the above<br><br><br><input type="button" value="Check" id="19" onclick="ans(this.id);"><br>
+		<h3>20. Firefox OS Apps are </h3><br>
+		SELECT:-<Select id="20" size="2" style="width:150px;"><option>Select</option><option>1</option><option>2</option><option>3</option><option>4</option></select><br><br>
+
+ 		1. Java apps<br><br>
+ 		2. C++ apps<br><br> 
+ 		3. Python apps<br><br>
+ 		4.Html5 apps<br><br><br><input type="button" value="Check" id="20" onclick="ans(this.id);"><br>
+		
+		<br><br>
+</body>
+</html>
